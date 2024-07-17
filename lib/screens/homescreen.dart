@@ -20,12 +20,12 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.only(left: 30, right: 30, top: 50),
         child: Column(
           children: [
-            // Text(
-            //   'Score',
-            //   style: GoogleFonts.pressStart2p(
-            //     textStyle: const TextStyle(color: Colors.white, fontSize: 25),
-            //   ),
-            // ),
+            Text(
+              'Score',
+              style: GoogleFonts.pressStart2p(
+                textStyle: const TextStyle(color: Colors.white, fontSize: 25),
+              ),
+            ),
             Expanded(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
